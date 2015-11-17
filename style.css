@@ -1,0 +1,54 @@
+section {
+    margin: 25px;
+}
+
+.aircraft-administration {
+    display: inline-block;
+}
+
+.aircrafts {
+    float: left;
+    margin: 5px;
+    border: solid;
+}
+
+.services {
+    float: right;
+    margin: 5px;
+    border: solid;
+}
+
+input {
+    margin: 5px;
+    box-shadow: 0 0 5px 1px #969696;
+}
+
+label {
+    padding: 4px;
+    font-size: 18;
+    margin: 5px;
+}
+
+p {
+    font-weight: bold;
+    font-size: 20;
+    padding: 5px;
+}
+
+button {
+    font-size: 20;
+    box-shadow: 0 0 5px 1px #969696;
+    margin: 5px;
+}
+
+.input-left {
+    float: left;
+    display: inline-block;
+    margin: 10px;
+}
+
+.input-right {
+    float: right;
+    display: inline-block;
+    margin: 10px;
+}

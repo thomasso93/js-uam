@@ -1,0 +1,74 @@
+
+<html>
+	<head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+		<script src="aircrafts.js"></script>
+		<script src="loadAircrafts.js"></script>
+	</head>
+	
+	<body>
+		<h1>AIRCRAFTS ADMINISTRATION</h1>
+		
+        <div class="aircraft-administration"> 
+            <div  class="aircrafts">
+                <section >
+                    <h2>Aircrafts:</h2>
+                
+                    <label>Aircraft Code:</label><input id="aircraftCode" />
+                    
+                    <br />
+                    <br />
+                    
+                    <button type="button" onClick="showAircrafts(UAM.aircrafts)">Show aircrafts</button>
+
+                   <button type="button" id="addAircraftButton">Add aircraft</button>
+                   <button type="button" id="removeAircraftButton">Remove aircraft</button>
+
+                    <p>Stored aircrafts:</p>
+                    <ul id="aircraftList"></ul>
+                </section>  
+            </div>
+            
+            <div class="services">
+                <section>
+                    <h2>Services:</h2>
+                    
+                    <div class="input-left">
+                        
+                        <label>Max service time:</label>
+                        <br />
+                        <input id="maxServiceTime" />
+                        <br />
+                        <br />
+                        <button type="button" id="showServiceButton">Show serviced aircrafts</button>
+                        
+                        <p>Serviced aircrafts:</p>
+                        <ul id="servicedAircraftList"></ul>
+                    </div>
+        
+                    <div class="input-right">
+                        <label>Aircraft Code:</label>
+                        <br/>
+                        <input id="aircraftServiceCode" />
+                        <br/>
+                        <label>Service Name:</label>
+                        <br/>
+                        <input id="serviceName" />
+                        <br/>
+                        <label>Service Time:</label>
+                        <br/>
+                        <input id="serviceTime" />
+                         <br />
+                        <br />
+    
+                        <button type="button" id="addWorkButton">Add work to aircraft</button>
+                        <button type="button" id="reduceTimeButton">Reduce time</button>
+                    </div>
+                    
+
+                </section>
+            </div>
+        </div>
+        
+	</body>
+</html>
